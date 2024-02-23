@@ -29,7 +29,7 @@
   align-items: center;
   flex: 1;
   margin-left: 200px;
-  margin-right: 135px;
+  margin-right: 125px;
 }
 .amazon-header .mid input {
   width: 100%;
@@ -73,7 +73,7 @@ input:focus {
   color: white;
 }
 .order-link {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 300;
   padding: 0.3em;
 }
@@ -83,7 +83,7 @@ input:focus {
 }
 .order-link span:last-child {
   margin-top: -5px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 700;
   display: block;
 }
@@ -93,19 +93,20 @@ input:focus {
   align-items: flex-end;
   position: relative;
   padding: 0.4em;
+  margin-left: 0.8em;
 }
 .cart-link:hover {
   border: 1px solid white;
   border-radius: 3px;
 }
 .cart-link img {
-  height: 35px;
+  height: 33px;
 }
 .cart-count {
   color: darkorange;
   font-weight: 600;
   position: absolute;
-  inset: -2px 32px;
+  inset: -1px 29px;
 }
 .cart-link p:last-child {
   font-size: 0.9rem;
