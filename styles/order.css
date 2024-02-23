@@ -1,0 +1,131 @@
+main {
+  max-width: 880px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  padding: 0 1em;
+}
+.your-order {
+  margin-block: 0.9em 0.7em;
+}
+.orders-container {
+  border: 1px solid rgb(200, 198, 198);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.order-header {
+  border-bottom: 1px solid rgb(200, 198, 198);
+  background-color: rgb(232, 229, 229);
+  padding: 0.7em 1.2em;
+  /* display: grid;
+  align-items: center;
+  grid-template-columns: 160px minmax(30px, 1fr) 1fr; */
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.order-placed {
+  width: 160px;
+}
+.order-total {
+  width: 100%;
+  margin-right: 30px;
+  flex: 1;
+}
+
+.order-header div p:first-child {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.order-header div p:last-child {
+  font-size: 0.9rem;
+}
+.order-data {
+  margin-top: 1.8em;
+}
+.product-order {
+  padding: 1.2em 1.9em;
+  display: grid;
+  grid-template-columns: 160px 1fr;
+}
+
+.product-order-img {
+  width: 100px;
+}
+
+.product-order-img img {
+  width: 100%;
+}
+
+.product-order-info {
+  display: flex;
+  justify-content: space-between;
+}
+.product-order-name {
+  margin-right: 40px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+.delivery-day,
+.product-order-qty {
+  font-size: 0.9rem;
+}
+.buy-btn {
+  margin-top: 0.8em;
+  padding: 0.5em 1.2em;
+  background-color: rgb(247, 237, 39);
+  border: none;
+  cursor: pointer;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  transition: all 0.15s;
+  margin-bottom: 0.8em;
+}
+.buy-btn:hover {
+  background-color: rgb(246, 223, 20);
+}
+.buy-btn img {
+  width: 25px;
+  margin-right: 10px;
+}
+.track-btn {
+  height: 35px;
+  width: 14em;
+  border: 1px solid rgb(222, 221, 221);
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.15s;
+}
+.track-btn:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+  .product-order-info {
+    flex-direction: column;
+  }
+  .track-btn {
+    width: 8.5rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .order-header {
+    flex-direction: column;
+  }
+  .order-placed,
+  .order-total,
+  .order-id {
+    display: flex;
+    width: 100%;
+  }
+}

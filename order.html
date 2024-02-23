@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon Clone</title>
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/order.css" />
+  </head>
+  <body>
+    <header class="amazon-header">
+      <div class="left">
+        <a href="index.html" class="logo">
+          <img src="./icons/amazon-logo-white.png" class="amazon-logo" />
+          <img
+            src="./icons/amazon-mobile-logo-white.png"
+            class="amazon-mobile-logo"
+          />
+        </a>
+      </div>
+      <div class="mid">
+        <input type="text" placeholder="Search" />
+        <button class="search-btn">
+          <img src="./icons/search-icon.png" />
+        </button>
+      </div>
+      <div class="right">
+        <a href="#" class="order-link">
+          <span>Returns</span>
+          <span>& Orders</span>
+        </a>
+        <a href="order.html" class="cart-link">
+          <img src="./icons/cart-icon.png" />
+          <p class="cart-count">3</p>
+          <p>Cart</p>
+        </a>
+        <div class="menu">
+          <img src="./icons/hamburger-menu.png" class="menu-icon" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h2 class="your-order">Your Orders</h2>
+        <div class="orders-container">
+          <div class="order-header">
+            <div class="order-placed">
+              <p>Order Placed:&#160;&#160;</p>
+              <p>February 21</p>
+            </div>
+            <div class="order-total">
+              <p>Total:&#160;&#160;</p>
+              <p>$35.06</p>
+            </div>
+            <div class="order-id">
+              <p>Order ID:&#160;&#160;</p>
+              <p>27cba69d-4c3d-4098-b42d-ac7fa62b7664</p>
+            </div>
+          </div>
+          <div class="order-data">
+            <div class="product-order">
+              <div class="product-order-img">
+                <img src="./image/athletic-cotton-socks-6-pairs.jpg" alt="" />
+              </div>
+              <div class="product-order-info">
+                <div class="details">
+                  <p class="product-order-name">
+                    Black and Gray Athletic Cotton Socks - 6 Pairs
+                  </p>
+                  <p class="delivery-day">Arriving on: February 26</p>
+                  <p class="product-order-qty">Quantity: 1</p>
+                  <button class="buy-btn">
+                    <img src="/icons/buy-again.png" /> Buy it again
+                  </button>
+                </div>
+                <button class="track-btn">Track package</button>
+              </div>
+            </div>
+            <div class="product-order">
+              <div class="product-order-img">
+                <img
+                  src="./image/adults-plain-cotton-tshirt-2-pack-teal.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="product-order-info">
+                <div class="details">
+                  <p class="product-order-name">
+                    Adults Plain Cotton T-Shirt - 2 Pack
+                  </p>
+                  <p class="delivery-day">Arriving on: March 3</p>
+                  <p class="product-order-qty">Quantity: 2</p>
+                  <button class="buy-btn">
+                    <img src="/icons/buy-again.png" /> Buy it again
+                  </button>
+                </div>
+                <button class="track-btn">Track package</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
