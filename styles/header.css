@@ -77,10 +77,11 @@ input:focus {
   font-weight: 300;
   padding: 0.3em;
 }
-.order-link:hover {
+/* .order-link:hover,
+.cart-link:hover {
   border: 1px solid white;
   border-radius: 3px;
-}
+} */
 .order-link span:last-child {
   margin-top: -5px;
   font-size: 0.9rem;
@@ -95,10 +96,7 @@ input:focus {
   padding: 0.4em;
   margin-left: 0.8em;
 }
-.cart-link:hover {
-  border: 1px solid white;
-  border-radius: 3px;
-}
+
 .cart-link img {
   height: 33px;
 }
