@@ -4,8 +4,180 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amazon Clone</title>
-    <link rel="stylesheet" href="./styles/add-to-cart.css" />
-    <link rel="stylesheet" href="./styles/general.css" />
+    <link rel="stylesheet" href="./styles/checkout.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="left-head">
+        <div class="logo">
+          <img class="amazon-logo" src="./icons/amazon-logo.png" alt="" />
+          <img
+            class="amazon-mobile-logo"
+            src="./icons/amazon-mobile-logo.png"
+            alt=""
+          />
+        </div>
+      </div>
+      <div class="mid-head">
+        <p>Checkout (<span class="item-count">5 items</span>)</p>
+      </div>
+      <div class="right-head">
+        <div class="lock-icon">
+          <img src="./icons/checkout-lock-icon.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <main>
+      <p class="review-order">Review your order</p>
+      <div class="checkout-order-container">
+        <div class="order-container js-order-container">
+          <div class="product-order">
+            <div class="delivery-date">Delivery: Wednesday, February 28</div>
+            <div class="product-order-details">
+              <div class="product-img">
+                <img
+                  src="./image/intermediate-composite-basketball.jpg"
+                  alt=""
+                />
+              </div>
+              <div class="product-info">
+                <p class="product-name">Intermediate Size Basketball</p>
+                <p class="price">$20.95</p>
+                <div class="product-qty">
+                  Quantity:
+                  <span class="qty-lable">3</span>
+                  <span class="updete-link">Updete</span>
+                  <span class="delete-link">Delete</span>
+                </div>
+              </div>
+              <div class="delivery-option-container span-col">
+                <p class="delivery-option-title">Choose a delivery option:</p>
+                <div class="delivery-option">
+                  <input
+                    type="radio"
+                    class="delivery-input-option"
+                    name="delivery-option-one"
+                  />
+                  <div>
+                    <div class="delivery-option-date">Tuesday, March 5</div>
+                    <div class="delivery-option-price">FREE Shipping</div>
+                  </div>
+                </div>
+                <div class="delivery-option">
+                  <input
+                    type="radio"
+                    class="delivery-input-option"
+                    name="delivery-option-one"
+                  />
+                  <div>
+                    <div class="delivery-option-date">
+                      Wednesday, February 28
+                    </div>
+                    <div class="delivery-option-price">$4.99 - Shipping</div>
+                  </div>
+                </div>
+                <div class="delivery-option">
+                  <input
+                    type="radio"
+                    class="delivery-input-option"
+                    name="delivery-option-one"
+                  />
+                  <div>
+                    <div class="delivery-option-date">Monday, February 26</div>
+                    <div class="delivery-option-price">$9.99 - Shipping</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-order">
+            <div class="delivery-date">Delivery: Wednesday, February 28</div>
+            <div class="product-order-details">
+              <div class="product-img">
+                <img src="./image/6-piece-non-stick-baking-set.webp" alt="" />
+              </div>
+              <div class="product-info">
+                <p class="product-name">
+                  6-Piece Nonstick, Carbon Steel Oven Bakeware Baking Set
+                </p>
+                <p class="price">$34.99</p>
+                <div class="product-qty">
+                  Quantity:
+                  <span class="qty-lable">2</span>
+                  <span class="updete-link">Updete</span>
+                  <span class="delete-link">Delete</span>
+                </div>
+              </div>
+              <div class="delivery-option-container span-col">
+                <p class="delivery-option-title">Choose a delivery option:</p>
+                <div class="delivery-option">
+                  <input
+                    type="radio"
+                    class="delivery-input-option"
+                    name="delivery-option-one"
+                  />
+                  <div>
+                    <div class="delivery-option-date">Tuesday, March 5</div>
+                    <div class="delivery-option-price">FREE Shipping</div>
+                  </div>
+                </div>
+                <div class="delivery-option">
+                  <input
+                    type="radio"
+                    class="delivery-input-option"
+                    name="delivery-option-one"
+                  />
+                  <div>
+                    <div class="delivery-option-date">
+                      Wednesday, February 28
+                    </div>
+                    <div class="delivery-option-price">$4.99 - Shipping</div>
+                  </div>
+                </div>
+                <div class="delivery-option">
+                  <input
+                    type="radio"
+                    class="delivery-input-option"
+                    name="delivery-option-one"
+                  />
+                  <div>
+                    <div class="delivery-option-date">Monday, February 26</div>
+                    <div class="delivery-option-price">$9.99 - Shipping</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="summary-order">
+          <p class="summary-title">Order Summary</p>
+          <div class="payment-summary">
+            <p>Items (3):</p>
+            <p class="payment-summary-money">$74.93</p>
+          </div>
+          <div class="payment-summary">
+            <p>Shipping & handling:</p>
+            <p class="payment-summary-money underline">$9.99</p>
+          </div>
+          <div class="payment-summary">
+            <p>Total before tax:</p>
+            <p class="payment-summary-money">$84.92</p>
+          </div>
+          <div class="payment-summary">
+            <p>Estimated tax(10%):</p>
+            <p class="payment-summary-money">$8.49</p>
+          </div>
+          <div class="payment-summary">
+            <p>Order total:</p>
+            <p class="payment-summary-money">$93.41</p>
+          </div>
+          <div class="paypal">Use PayPal <input type="checkbox" /></div>
+          <button class="place-order-btn">Place your order</button>
+        </div>
+      </div>
+    </main>
+
+    <script type="module" src="./scripts/checkout.js"></script>
+  </body>
 </html>
