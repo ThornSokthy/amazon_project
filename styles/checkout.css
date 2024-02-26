@@ -109,6 +109,13 @@ main {
   color: rgb(32, 116, 243);
   margin-left: 0.4em;
   font-weight: 400;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.updete-link:hover,
+.delete-link:hover {
+  color: rgb(215, 1, 1);
 }
 
 .delivery-option-title {
@@ -196,6 +203,7 @@ input[type="radio"] {
 .paypal input[type="checkbox"] {
   width: 1.5em;
   height: 1.5em;
+  cursor: pointer;
 }
 
 .place-order-btn {
@@ -203,6 +211,10 @@ input[type="radio"] {
   background-color: gold;
   border: none;
   border-radius: 5px;
+  transition: all 0.15s;
+}
+.place-order-btn:hover {
+  background-color: rgb(255, 201, 22);
 }
 
 /* Responsive */
