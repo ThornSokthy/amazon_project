@@ -5,10 +5,12 @@ if (!cart) {
     {
       productId: "002",
       quantity: 2,
+      deliveryOptionId: "1",
     },
     {
       productId: "003",
       quantity: 1,
+      deliveryOptionId: "2",
     },
   ];
 }
@@ -30,6 +32,7 @@ export function addToCart(productId) {
     cart.push({
       productId: productId,
       quantity: 1,
+      deliveryOptionId: "1",
     });
   }
 
